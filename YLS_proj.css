@@ -1,0 +1,132 @@
+body{
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+
+#Nav{
+    height: 8.0527vw;
+    width: 30%;
+}
+#Nav img{
+    height:50px;
+    width:50px;
+    margin:2vw;
+}
+.About{
+    height:38.06734992679356vw;
+    width:100%;
+    background-color:#fad3d3;
+    margin-left: 2vw;
+}
+#R1slideshow{
+    width:40%;
+    height:38.06734992679356vw;
+    margin :3vw;
+    float: right;
+
+}
+#R1slideshow img{
+    height : 31.112737920937043vw;
+    width: 30vw;
+    
+    
+    
+}
+.Story{
+    height:30vw;
+    width:100%;
+    margin-left:2vw;
+    margin-right: 2vw;
+}
+.Story h1{
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 10vw;
+    padding-left: 45vw;
+}
+.Story p{
+    width:100%;
+   font-size: 2vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+.Gallery{
+    width:100%;
+    height:50vw;
+    background-color: #fad3d3;
+}
+#Ltext{
+    height:20vw;
+    width:40vw;
+    float:left;
+
+    margin-top:4vw;
+
+}
+#Ltext h1{
+    text-align:left;
+    font-size: 3vw;
+    margin-left:15vw;
+    margin-top: 10vw;
+}
+#Ltext p{
+   
+    font-size: 1.7vw;
+    float:left;
+    margin-left: 3vw;
+  margin-left: 15vw;
+}
+#R_slideshow {
+    height:20vw;
+    width:30vw;
+    float:right;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+    margin-top:7vw;
+  
+    
+}
+
+
+.mySlide{
+    
+    
+    margin-bottom:5vw;
+    margin-right: 5vw;
+    margin-left:1.5vw;
+   
+    
+    height:35vw;
+    width:23vw;
+
+}
+.SocialMedia{
+    margin:5vw;
+    height:12vw;
+    width:100%
+}
+
+.SocialMedia{
+    height: 12vw;
+    width: 100%;
+    display:grid;
+    grid-template-columns: auto auto;
+
+}
+.grid-item img {
+    width:3vw;
+    height:3vw;
+   padding:7vw;
+    margin-left:12vw;
+    
+}
+/* --------------------------------------------------------responsive code here------------------------------------- */
+@media only screen and (max-width: 600px){
+    #Nav img{
+        height:30px;
+        width:30px;
+        margin-left:5vw;
+    }
+  
+}

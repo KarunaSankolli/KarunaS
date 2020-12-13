@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="YLS_proj.css" >
+    <title>YourLittleShop.Goa</title>
+    
+</head>
+<body>
+
+<div class="About">
+    <div id="Nav">
+        <a href="index_port.html"><img src="back.png"></a>
+    
+    </div>
+    <div id="Ltext"><p>YourLiitleShop.Goa is an online thrift shop on instagram and facebook created for second hand shopping.It also serves as a 
+        awareness platform for waste management</p> 
+       
+    </div>
+    <div id="R1slideshow">
+        <img src="logo2.png">
+    </div>
+
+</div>
+<div class="Story">
+    <h1>Story</h1>
+    <p>It all started when during lock down we three friends came together to create a online thrift store experience for Goans as we saw the 
+        growing popularity ofthriftstores and the lack of it in our State. Sooner than later it grew from eing just another thriftstore to a 
+        awareness genarating platform for waste mnagement as well as shopping!The idea has always been to help establish a legible platform 
+        for those who want to sell and buy second as it helps reduce the demand of clothing and makes waste management easier.
+    </p>
+    
+</div>
+<div class="Gallery">
+    
+    <div id="Ltext">
+        <h1>Gallery</h1>
+        <p>Here are some of the Posts and Story Templates I've made for the shop</p> 
+       
+    </div>
+   <div id="R_slideshow">
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlide w3-animate-fading" src="4.png" style="width:100%"></a>
+                <img class="mySlide w3-animate-fading" src="5.png" style="width:100%">
+                <img class="mySlide w3-animate-fading" src="7.png" style="width:100%">
+                <img class="mySlide w3-animate-fading" src="2.png" style="width:100%">
+                <img class="mySlide w3-animate-fading" src="3.png" style="width:100%">
+                <img class="mySlide w3-animate-fading" src="6.png" style="width:100%">
+               </div>
+             <script>
+              var myIndex = 0;
+              carousel();
+              
+              function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlide");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 5000);    
+              }
+              </script>
+                
+        </div>
+    
+
+
+</div>
+<div class="SocialMedia">
+    
+    <div class="grid-item"><a href="instagram.com/yourlittleshop.goa/"> <img src="in.png"></a></div> 
+        <div class="grid-item"><img src="fb.png"></div>
+</div>
+</body>
+</html>

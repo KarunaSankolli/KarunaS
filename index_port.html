@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet_port.css" >
+    <title>Karuna Sankolli </title>
+    <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
+        </style>
+    
+</head>
+<body>
+    <div class="Navigation">
+        <img src="menu.png">
+        <h1>Contact </h1>
+        <h1>Illustrations</h1>
+        <h1>Projects</h1>
+        <h1>Home</h1>
+        
+    </div>
+    <div class="Home">  
+        <div id="img"><img src="1.png"></div>
+        <div id="Home_text">
+            <h1>FIRST OF ALL, IT IS AMAZING HAVING YOU HERE, WELCOME!
+                HOPE YOU ENJOY MY WORK!</h1></div>
+        
+        
+    </div>
+    <div class="Projects">
+            <div id="L_description">
+                <h1>Projects</h1>
+                <p>These are some of the projects I've <br> worked on early on.You can click <br>on the images to find out<br> more about each!</p>
+            </div>
+            <div id="R_slideshow">
+                <div class="w3-content w3-section" style="max-width:500px">
+                    <a href="YLS_proj.html"><img class="mySlide w3-animate-fading" src="logo2.png" style="width:100%"></a>
+                    <a href="index_port.html"><img class="mySlide w3-animate-fading" src="st2.png" style="width:100%"></a>
+                    <a href="index_port.html"><img class="mySlide w3-animate-fading" src="bc3.jpg" style="width:100%"> </a>
+                   </div>
+                 <script>
+                  var myIndex = 0;
+                  carousel();
+                  
+                  function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlide");
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 5000);    
+                  }
+                  </script>
+                    
+            </div>
+    </div>      
+    <div class="Illustrations">
+        <div id="R_description">
+            <h1>Illustrations</h1>
+            <p>These are some of the Illustrations I've <br> worked on early on. Primarily all these artworks made on Adobe Illustrator</p>
+        </div>
+            <div id="L_slideshow">
+               
+                <div class="w3-content w3-section" style="max-width:500px">
+                   
+                  
+                    <img class="mySlide w3-animate-fading" src="i2.png" style="width:100%">
+                    <img class="mySlide w3-animate-fading" src="i3.png" style="width:100%">
+                    <img class="mySlide w3-animate-fading" src="D2.png" style="width:100%">
+                    <img class="mySlide w3-animate-fading" src="rls2.png" style="width:100%">
+                    <img class="mySlide w3-animate-fading" src="st3.png" style="width:100%">
+                    <img class="mySlide w3-animate-fading" src="rls3.png" style="width:100%">
+                  </div>
+                  
+                
+                 </div>
+
+    </div>
+    
+    
+    <div class="Footer">
+        <div class="grid-item"><a href="instagram.com/them_dry_rains/"> <img src="in.png"></a></div> 
+        <div class="grid-item"><img src="fb.png"></div>
+        <div class="grid-item"><img src="mail.png"></div> 
+        <div class="grid-item"><img src="bhce.png"></div>
+    </div>
+
+</body>
+</html>
